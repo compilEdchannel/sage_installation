@@ -14,8 +14,6 @@ http://doc.sagemath.org/html/en/installation/source.html#system-specific-require
 All commands  :
 -----
 
-# Installation of pre-requisites
-
 ```sudo apt-get install binutils pixz gcc g++ gfortran make m4 perl tar \
   git patch openssl libssl-dev libz-dev bc libbz2-dev liblzma-dev libgmp-dev \
   libffi-dev libgf2x-dev libcurl4-openssl-dev curl yasm
@@ -42,6 +40,5 @@ make -jN #  N is the number of cores
 # Using  via jupyter
 
 ```./sage  -n  jupyter```
-
 
 jupyter notebook```
