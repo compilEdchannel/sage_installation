@@ -22,9 +22,9 @@ All commands  :
 ```sudo apt-get install binutils pixz gcc g++ gfortran make m4 perl tar \
   git patch openssl libssl-dev libz-dev bc libbz2-dev liblzma-dev libgmp-dev \
   libffi-dev libgf2x-dev libcurl4-openssl-dev curl yasm
-```
 
-```sudo apt install texlive ffmpeg dvipng imagemagick  openssh-server openssh-client  tk tk-dev```
+
+sudo apt install texlive ffmpeg dvipng imagemagick  openssh-server openssh-client  tk tk-dev```
 
 #  Change x.y in the following to the specific version.
 
