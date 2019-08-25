@@ -25,7 +25,8 @@ sudo apt install texlive ffmpeg dvipng imagemagick  openssh-server openssh-clien
 # Change x.y in the following to the specific version
 
 
-```tar xvf sage-x.y.tar
+```
+tar xvf sage-x.y.tar
 
 cd sage-x.y
 
@@ -38,7 +39,6 @@ make -jN #  N is the number of cores
 
 ```
 ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
-
 ```
 
 # Using  via jupyter
@@ -49,3 +49,10 @@ ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
 jupyter notebook
 
 ```
+
+# Build  time
+
+make  -j8  on AMD Ryzen  1700x,  3.85  Ghz  :  65  mins
+
+make  ptestlong  : parallel test  run, 25  mins
+
