@@ -43,6 +43,9 @@ ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
 
 # Using  via jupyter
 
-```./sage  -n  jupyter
+```
+./sage  -n  jupyter
 
-jupyter notebook```
+jupyter notebook
+
+```
