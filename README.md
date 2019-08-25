@@ -36,7 +36,9 @@ make -jN #  N is the number of cores
 
 # Create link 
 
-```ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
+```
+ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
+
 ```
 
 # Using  via jupyter
