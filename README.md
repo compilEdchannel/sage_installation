@@ -15,6 +15,7 @@ All commands  :
 -----
 
 #  Execute in the terminal
+----
 
 # Installation of pre-requisites
 
@@ -27,13 +28,13 @@ All commands  :
 
 #  Change x.y in the following to the specific version.
 
-```tar xvf sage-x.y.tar```
+```tar xvf sage-x.y.tar
 
-```cd sage-x.y```
+cd sage-x.y
 
-```make -jN #  N is the number of cores```
+make -jN #  N is the number of cores
 
-```./sage -i pyopenssl
+./sage -i pyopenssl
 
 ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
 
