@@ -23,7 +23,9 @@ All commands  :
 
 sudo apt install texlive ffmpeg dvipng imagemagick  openssh-server openssh-client  tk tk-dev```
 
-#  Change x.y in the following to the specific version.
+
+# Change x.y in the following to the specific version
+-----
 
 ```tar xvf sage-x.y.tar
 
@@ -33,11 +35,11 @@ make -jN #  N is the number of cores
 
 ./sage -i pyopenssl```
 
-#  Create link 
+# Create link 
 
 ```ln -s /path/to/sage-x.y/sage /usr/local/bin/sage```
 
-#  Using  via jupyter
+# Using  via jupyter
 
 ```./sage  -n  jupyter```
 
