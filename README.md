@@ -14,9 +14,6 @@ http://doc.sagemath.org/html/en/installation/source.html#system-specific-require
 All commands  :
 -----
 
-#  Execute in the terminal
-----
-
 # Installation of pre-requisites
 
 ```sudo apt-get install binutils pixz gcc g++ gfortran make m4 perl tar \
@@ -34,10 +31,15 @@ cd sage-x.y
 
 make -jN #  N is the number of cores
 
-./sage -i pyopenssl
+./sage -i pyopenssl```
 
-ln -s /path/to/sage-x.y/sage /usr/local/bin/sage
+#  Create link 
 
-./sage  -n  jupyter
+```ln -s /path/to/sage-x.y/sage /usr/local/bin/sage```
+
+#  Using  via jupyter
+
+```./sage  -n  jupyter```
+
 
 jupyter notebook```
