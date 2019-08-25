@@ -31,7 +31,8 @@ cd sage-x.y
 
 make -jN #  N is the number of cores
 
-./sage -i pyopenssl```
+./sage -i pyopenssl
+```
 
 # Create link 
 
@@ -41,6 +42,5 @@ make -jN #  N is the number of cores
 # Using  via jupyter
 
 ```./sage  -n  jupyter
-
 
 jupyter notebook```
