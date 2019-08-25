@@ -11,8 +11,8 @@ For any  doubts  refer to the following  page.
 http://doc.sagemath.org/html/en/installation/source.html#system-specific-requirements
 
 
-All commands  :
------
+# All commands  :
+
 
 ```sudo apt-get install binutils pixz gcc g++ gfortran make m4 perl tar \
   git patch openssl libssl-dev libz-dev bc libbz2-dev liblzma-dev libgmp-dev \
@@ -23,7 +23,7 @@ sudo apt install texlive ffmpeg dvipng imagemagick  openssh-server openssh-clien
 
 
 # Change x.y in the following to the specific version
------
+
 
 ```tar xvf sage-x.y.tar
 
